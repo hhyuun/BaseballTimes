@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52ADF3B02C119096009B5DDF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ADF3AF2C119096009B5DDF /* MapViewController.swift */; };
+		52ADF3B22C11928A009B5DDF /* ScrabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ADF3B12C11928A009B5DDF /* ScrabController.swift */; };
+		52ADF3B42C119810009B5DDF /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ADF3B32C119810009B5DDF /* NewsViewController.swift */; };
 		52EB2D6D2C00F90A00556A5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EB2D6C2C00F90A00556A5F /* AppDelegate.swift */; };
 		52EB2D6F2C00F90A00556A5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EB2D6E2C00F90A00556A5F /* SceneDelegate.swift */; };
-		52EB2D712C00F90A00556A5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EB2D702C00F90A00556A5F /* ViewController.swift */; };
+		52EB2D712C00F90A00556A5F /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EB2D702C00F90A00556A5F /* TeamViewController.swift */; };
 		52EB2D742C00F90A00556A5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EB2D722C00F90A00556A5F /* Main.storyboard */; };
 		52EB2D762C00F90C00556A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EB2D752C00F90C00556A5F /* Assets.xcassets */; };
 		52EB2D792C00F90C00556A5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EB2D772C00F90C00556A5F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52ADF3AF2C119096009B5DDF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		52ADF3B12C11928A009B5DDF /* ScrabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrabController.swift; sourceTree = "<group>"; };
+		52ADF3B32C119810009B5DDF /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		52EB2D692C00F90A00556A5F /* BaseballTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseballTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EB2D6C2C00F90A00556A5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52EB2D6E2C00F90A00556A5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52EB2D702C00F90A00556A5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52EB2D702C00F90A00556A5F /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
 		52EB2D732C00F90A00556A5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52EB2D752C00F90C00556A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52EB2D782C00F90C00556A5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +64,14 @@
 			children = (
 				52EB2D6C2C00F90A00556A5F /* AppDelegate.swift */,
 				52EB2D6E2C00F90A00556A5F /* SceneDelegate.swift */,
-				52EB2D702C00F90A00556A5F /* ViewController.swift */,
+				52EB2D702C00F90A00556A5F /* TeamViewController.swift */,
 				52EB2D722C00F90A00556A5F /* Main.storyboard */,
 				52EB2D752C00F90C00556A5F /* Assets.xcassets */,
 				52EB2D772C00F90C00556A5F /* LaunchScreen.storyboard */,
 				52EB2D7A2C00F90C00556A5F /* Info.plist */,
+				52ADF3AF2C119096009B5DDF /* MapViewController.swift */,
+				52ADF3B12C11928A009B5DDF /* ScrabController.swift */,
+				52ADF3B32C119810009B5DDF /* NewsViewController.swift */,
 			);
 			path = BaseballTimes;
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52EB2D712C00F90A00556A5F /* ViewController.swift in Sources */,
+				52ADF3B22C11928A009B5DDF /* ScrabController.swift in Sources */,
+				52EB2D712C00F90A00556A5F /* TeamViewController.swift in Sources */,
 				52EB2D6D2C00F90A00556A5F /* AppDelegate.swift in Sources */,
+				52ADF3B42C119810009B5DDF /* NewsViewController.swift in Sources */,
 				52EB2D6F2C00F90A00556A5F /* SceneDelegate.swift in Sources */,
+				52ADF3B02C119096009B5DDF /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
